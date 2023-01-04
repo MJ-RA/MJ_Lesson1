@@ -1,0 +1,18 @@
+Name: Templates
+Type: FolderType
+Children:
+- Name: MyPanel
+  Id: g=d17a32d7ee424640f7aaf0d80cbde82e
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 900.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
